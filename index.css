@@ -1,0 +1,124 @@
+body {
+	background: #eee;
+	color: #333;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	line-height: 30px;
+}
+
+section {
+	display: block;
+	margin-bottom: 40px;
+}
+
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.wrap {
+	padding: 20px 30px;
+	border: 4px solid #999;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	background: #fff;
+}
+
+.content {
+	margin-left: 45px;
+}
+
+.tips {
+	font-style: italic;
+	color: #999;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.progress {
+	width: 100%;
+	height: 5px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.progress span {
+	-webkit-transition: width .2s linear;
+	        transition: width .2s linear;
+	display: block;
+	height: 100%;
+	width: 0;
+	background: #04ffea;
+}
+
+.hl {
+	color: #f04848;
+	background: #eee;
+	margin: 0 4px;
+	padding: 0 4px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.example {
+	line-height: 50px;
+	background: #f8f8f8;
+	padding-left: 20px;
+	border-left: 4px solid #ccc;
+}
+
+.handle {
+	padding: 20px;
+	background: #f8f8f8;
+}
+
+#demo-app input {
+	height: 30px;
+	padding: 0 10px;
+	font-size: 16px;
+	color: #444;
+}
+
+#demo-app .add {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	background: #f04848;
+	padding: 0 10px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#demo-app .result {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	padding: 0 20px;
+	position: relative;
+}
+
+#demo-app .result::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 10px;
+	left: 0;
+	border-left: 10px solid #333;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}
